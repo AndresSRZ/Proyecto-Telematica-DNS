@@ -1,0 +1,13 @@
+$TTL 86400
+@   IN  SOA     dns.departamentos.local. admin.departamentos.local. (
+        20240526
+        3600
+        1800
+        604800
+        86400 )
+
+@       IN  NS      dns.departamentos.local.
+147.22  IN  PTR     dns.departamentos.local.
+125.29  IN  PTR     mercadeo.departamentos.local.
+76.18   IN  PTR     gerencia.departamentos.local.
+159.29  IN  PTR     finanzas.departamentos.local.
