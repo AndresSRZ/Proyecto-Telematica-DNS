@@ -22,7 +22,7 @@ Este proyecto consiste en la implementación de un servidor DNS usando BIND9 en 
 
 Se utilizaron 4 instancias EC2 (Ubuntu 22.04) en la VPC predeterminada de AWS:
 
-| Rol        | Hostname              | IP Privada         |
+| Rol        | Hostname              | IP Privada          |
 |------------|------------------------|--------------------|
 | DNS Server | dns-server-Ubuntu      | 172.31.22.147      |
 | Cliente 1  | Mercadeo               | 172.31.29.125      |
