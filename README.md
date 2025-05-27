@@ -65,7 +65,9 @@ Se utilizaron 4 instancias EC2 (Ubuntu 22.04) en la VPC predeterminada de AWS:
   - sudo systemctl stop systemd-resolved
 
 - Ajustar /etc/hosts para evitar errores con sudo:
-  - 127.0.1.1 ip-172-31-XX-XXX
+  - 127.0.1.1 ip-172-31-29-125     # para Mercadeo
+  - 127.0.1.1 ip-172-31-18-76      # para Gerencia
+  - 127.0.1.1 ip-172-31-29-159     # para Finanzas
 
 ## Pruebas realizadas
 
