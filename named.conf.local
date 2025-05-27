@@ -1,0 +1,9 @@
+zone "departamentos.local" {
+    type master;
+    file "/etc/bind/zones/departamentos.local.zone";
+};
+
+zone "31.172.in-addr.arpa" {
+    type master;
+    file "/etc/bind/zones/31.172.in-addr.arpa.zone";
+};
