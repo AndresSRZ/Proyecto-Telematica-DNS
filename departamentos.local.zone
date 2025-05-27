@@ -1,0 +1,13 @@
+$TTL 86400
+@   IN  SOA     dns.departamentos.local. admin.departamentos.local. (
+        20240526 ; Serial
+        3600     ; Refresh
+        1800     ; Retry
+        604800   ; Expire
+        86400 )  ; Minimum TTL
+
+@       IN  NS      dns.departamentos.local.
+dns     IN  A       172.31.22.147
+mercadeo IN A       172.31.29.125
+gerencia IN A       172.31.18.76
+finanzas IN A       172.31.29.159
